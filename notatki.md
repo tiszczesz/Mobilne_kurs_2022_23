@@ -9,15 +9,15 @@
 5. Flutter i Dart: https://docs.flutter.dev/
 
 ## Architektura  systemu Android
-    * Opis architektury: https://developer.android.com/guide/platform
+* Opis architektury: https://developer.android.com/guide/platform
 
 ## Programowanie w systemie Android
-    - Java i Kotlin
-    - Dokumentacja Kotlin: https://kotlinlang.org/
-    - playground dla Kotlin: 
+- Java i Kotlin
+- Dokumentacja Kotlin: https://kotlinlang.org/
+- playground dla Kotlin: 
 
 ## Język Kotlin
-    - Typy danych: https://kotlinlang.org/docs/basic-types.html
+- Typy danych: https://kotlinlang.org/docs/basic-types.html
 
 
 ```kotlin
@@ -57,7 +57,7 @@
 ``` 
 ## Instrukcje sterujące
 
-    [Dokumentacja:] (https://kotlinlang.org/docs/control-flow.html)    
+[Dokumentacja:] (https://kotlinlang.org/docs/control-flow.html)    
 
 ## Typy Nulowalne
 dokumentacja: https://kotlinlang.org/docs/basic-syntax.html#nullable-values-and-null-checks
