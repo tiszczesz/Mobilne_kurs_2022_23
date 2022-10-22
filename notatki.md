@@ -34,5 +34,25 @@
     val myStr = "Hello World"
     var firCharInStr = myStr[0]
     var lastCharInStr = myStr[myStr.length - 1]
-```
+    val str = "abcd"
+    println(str.uppercase()) // Create and print a new String object
+    println(str) // The original string remains the same
+
+    //boolean
+    val myTrue: Boolean = true
+    val myFalse: Boolean = false
+    val boolNull: Boolean? = null
+
+    println(myTrue || myFalse)
+    println(myTrue && myFalse)
+    println(!myTrue) 
+
+    //char
+    val aChar: Char = 'a'
+
+    println(aChar)
+    println('\n') // Prints an extra newline character
+    println('\uFF00')
+
+``` 
     
