@@ -55,4 +55,9 @@
     println('\uFF00')
 
 ``` 
-    
+## Instrukcje sterujące
+
+    [Dokumentacja:] (https://kotlinlang.org/docs/control-flow.html)    
+
+## Typy Nulowalne
+dokumentacja: https://kotlinlang.org/docs/basic-syntax.html#nullable-values-and-null-checks
