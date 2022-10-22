@@ -15,3 +15,6 @@
     - Java i Kotlin
     - Dokumentacja Kotlin: https://kotlinlang.org/
     - playground dla Kotlin: 
+
+## Język Kotlin
+    - Typy danych: https://kotlinlang.org/docs/basic-types.html
