@@ -7,3 +7,11 @@
 3. React Native: https://reactnative.dev/
 4. Cordova Apache: https://cordova.apache.org/
 5. Flutter i Dart: https://docs.flutter.dev/
+
+## Architektura  systemu Android
+    * Opis architektury: https://developer.android.com/guide/platform
+
+## Programowanie w systemie Android
+    - Java i Kotlin
+    - Dokumentacja Kotlin: https://kotlinlang.org/
+    - playground dla Kotlin: 
