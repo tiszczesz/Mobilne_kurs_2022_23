@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewBindingEx1</string>
+    <string name="firstname">Imię</string>
+    <string name="lastname">Nazwisko</string>
+    <string name="email" >Adres Email</string>
+    <string name="check">sprawdź</string>
+</resources>
