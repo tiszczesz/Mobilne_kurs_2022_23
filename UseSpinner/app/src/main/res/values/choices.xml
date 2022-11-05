@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alternatives">
+        <item>Monika</item>
+        <item>Renata</item>
+        <item>Ewelina</item>
+        <item>Wanda</item>
+        <item>Helena</item>
+        <item>Anna</item>
+    </string-array>
+</resources>

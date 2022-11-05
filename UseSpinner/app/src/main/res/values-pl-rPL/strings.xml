@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Użycie wybornika</string>
+    <string name="Header">Witaj świecie</string>
+    <string name="button_one">Kliknij Tu</string>
+    <string name="spinner_info">Wybór</string>
+</resources>
