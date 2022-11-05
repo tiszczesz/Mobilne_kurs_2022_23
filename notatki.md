@@ -61,3 +61,7 @@
 
 ## Typy Nulowalne
 dokumentacja: https://kotlinlang.org/docs/basic-syntax.html#nullable-values-and-null-checks
+
+## Cykl życia activity
+
+Dokumentacja: https://developer.android.com/guide/components/activities/activity-lifecycle
