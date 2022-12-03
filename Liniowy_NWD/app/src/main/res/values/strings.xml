@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Liniowy_NWD</string>
+    <string name="app_title">Algorytm Euklidesa</string>
+    <string name="btn_text">Oblicz</string>
+</resources>
