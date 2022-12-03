@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Spinner_cw1</string>
+
+
+        <string-array name="Languages">
+            <item>Java</item>
+            <item>Kotlin</item>
+            <item>Swift</item>
+            <item>Python</item>
+            <item>Scala</item>
+            <item>Perl</item>
+        </string-array>
+    </resources>
+

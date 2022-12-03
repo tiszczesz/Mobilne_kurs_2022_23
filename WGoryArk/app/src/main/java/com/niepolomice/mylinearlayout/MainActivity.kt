@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         bind.btnLike.setOnClickListener {
             licznik++
-            bind.likeNumber.text = licznik.toString()+" polubień"
+            UpdateLikes(bind.likeNumber)
         }
         bind.btnReset.setOnClickListener {
             licznik = if (licznik>0) licznik-1 else licznik
