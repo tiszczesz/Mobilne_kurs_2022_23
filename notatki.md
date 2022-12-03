@@ -65,3 +65,7 @@ dokumentacja: https://kotlinlang.org/docs/basic-syntax.html#nullable-values-and-
 ## Cykl życia activity
 
 Dokumentacja: https://developer.android.com/guide/components/activities/activity-lifecycle
+
+## Zadanie 1
+### Omówienie Save key-value data
+https://developer.android.com/training/data-storage/shared-preferences
