@@ -1,12 +1,11 @@
-package com.example.multiactivity
+package com.example.recycledview_v1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class SecondActivityActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.second_activity)
+        setContentView(R.layout.activity_main)
     }
 }
