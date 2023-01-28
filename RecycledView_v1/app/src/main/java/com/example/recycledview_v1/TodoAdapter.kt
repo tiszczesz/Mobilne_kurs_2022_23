@@ -11,6 +11,7 @@ import com.example.recycledview_v1.databinding.ItemViewBinding
 class TodoAdapter(private val todos:MutableList<Todo>):
     RecyclerView.Adapter<TodoAdapter.ViewHolder>()
 {
+    var clickedPos = -1
     inner class ViewHolder(val itemBinding:ItemViewBinding)
         :RecyclerView.ViewHolder(itemBinding.root) {
             fun bindItem(todo:Todo){
@@ -37,6 +38,7 @@ class TodoAdapter(private val todos:MutableList<Todo>):
             toggleStrikeThrough(holder.itemBinding.todoTitle,isChecked)
             currentTodo.isChecked = !currentTodo.isChecked
         }
+        
     }
 
     private fun toggleStrikeThrough(todoTitle: TextView, isChecked: Boolean) {
