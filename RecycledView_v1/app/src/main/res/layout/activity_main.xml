@@ -38,16 +38,16 @@
         android:layout_margin="2dp"
         android:text="Nowy"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/btnDelete"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/editText" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnDelete"
         android:layout_width="wrap_content"
         android:layout_height="51dp"
         android:layout_margin="2dp"
-        android:text="Button"
+        android:text="Usuń"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
