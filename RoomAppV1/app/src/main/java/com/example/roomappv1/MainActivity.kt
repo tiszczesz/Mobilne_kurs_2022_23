@@ -26,7 +26,21 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun readData() {
-        //todo
+        //todo pobierz numer z dziennika
+        val rollNo = binding.eNrDziennika.text.toString()
+        //jesli nie pusty to pobierz z bazy studenta o tym numerze
+        if(rollNo.isNotEmpty()){
+            var student:Student?
+            GlobalScope.launch {
+                student = appDatabase.studentDao().findByRoll(rollNo.toInt())
+                if(student!=null){
+                    displayData(student!!)
+                }else{
+                    //todo
+                }
+            }
+        }
+        //wywołaj metodę displayData
 
 
     }
