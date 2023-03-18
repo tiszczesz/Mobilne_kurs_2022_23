@@ -69,3 +69,23 @@ Dokumentacja: https://developer.android.com/guide/components/activities/activity
 ## Zadanie 1
 ### Omówienie Save key-value data
 https://developer.android.com/training/data-storage/shared-preferences
+
+
+## Android Room
+
+```console
+
+    implementation 'androidx.core:core-ktx:1.9.0'
+    def room_version = "2.5.0"
+
+    implementation "androidx.room:room-ktx:$room_version"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
+
+    implementation 'androidx.core:core-ktx:1.9.0'
+
+
+
+```
