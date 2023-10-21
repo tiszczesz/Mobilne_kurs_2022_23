@@ -1,5 +1,6 @@
 package com.example.listview_v1
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.AdapterView
@@ -20,7 +21,10 @@ class MainActivity : AppCompatActivity() {
         binding.listView.onItemClickListener = AdapterView.OnItemClickListener{
             adapterView, view, position, id ->
             val selectedItem = adapterView.getItemAtPosition(position) as String
+
             val itemIdAtPos = adapterView.getItemIdAtPosition(position)
+
+            view.setBackgroundColor(Color.GRAY)
             Toast.makeText(this@MainActivity,"kliknięto: $selectedItem o indeksie: $itemIdAtPos",
             Toast.LENGTH_SHORT).show()
         }
