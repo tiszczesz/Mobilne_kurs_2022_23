@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
             if(todoTitle.isNotEmpty()){
                 val todo = Todo(todoTitle)
                 todoAdapter.addTodo(todo)
+                binding.editText.setText("")
             }
         }
         binding.btnDelete.setOnClickListener {
